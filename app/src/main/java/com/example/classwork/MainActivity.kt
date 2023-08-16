@@ -44,6 +44,7 @@ class MainActivity : ComponentActivity() {
 fun HomePage() {
     Column(modifier = Modifier.fillMaxSize()) {
         Greeting(name = "Andima")
+        GreetMie(name = "Miracle")
     }
 }
 
@@ -59,6 +60,21 @@ fun Greeting(name: String) {
         fontWeight = FontWeight.ExtraBold
     )
 }
+
+@Composable
+fun GreetMie(name: String) {
+    Text(
+        text = name,
+        modifier = Modifier
+            .padding(10.dp)
+            .fillMaxWidth()
+            .background(color = Color.Green),
+        color = Color.Black,
+        fontWeight = FontWeight.ExtraBold
+    )
+}
+
+
 
 @Preview
 @Composable
