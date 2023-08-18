@@ -50,8 +50,6 @@ fun HomePage() {
     }
 }
 
-
-
 @Composable
 fun Greeting(name: String) {
     Text(
@@ -64,7 +62,6 @@ fun Greeting(name: String) {
         fontWeight = FontWeight.ExtraBold
     )
 }
-
 @Preview
 @Composable
 fun RePreview() {
