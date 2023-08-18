@@ -46,21 +46,8 @@ fun HomePage() {
         Greeting(name = "Andima")
         Greeting(name = "Miracle")
         Greeting(name = "Mkpouto")
-        GreetingJoe(name = "Joseph Ottong")
+        Greeting(name = "Joseph Ottong")
     }
-}
-
-@Composable
-fun GreetingJoe(name: String) {
-    Text (
-        text = name,
-    modifier = Modifier
-        .padding(10.dp)
-        .fillMaxWidth()
-        .background(color = Color.Blue),
-    color = Color.White,
-    fontWeight = FontWeight.ExtraBold
-    )
 }
 
 @Composable
@@ -75,22 +62,6 @@ fun Greeting(name: String) {
         fontWeight = FontWeight.ExtraBold
     )
 }
-
-@Composable
-fun GreetMie(name: String) {
-    Text(
-        text = name,
-        modifier = Modifier
-            .padding(10.dp)
-            .fillMaxWidth()
-            .background(color = Color.Green),
-        color = Color.Black,
-        fontWeight = FontWeight.ExtraBold
-    )
-}
-
-
-
 @Preview
 @Composable
 fun RePreview() {
