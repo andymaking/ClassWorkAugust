@@ -44,7 +44,8 @@ class MainActivity : ComponentActivity() {
 fun HomePage() {
     Column(modifier = Modifier.fillMaxSize()) {
         Greeting(name = "Andima")
-        GreetMie(name = "Miracle")
+        Greeting(name = "Miracle")
+        Greeting(name = "Mkpouto")
     }
 }
 
