@@ -46,7 +46,21 @@ fun HomePage() {
         Greeting(name = "Andima")
         Greeting(name = "Miracle")
         Greeting(name = "Mkpouto")
+        GreetingJoe(name = "Joseph Ottong")
     }
+}
+
+@Composable
+fun GreetingJoe(name: String) {
+    Text (
+        text = name,
+    modifier = Modifier
+        .padding(10.dp)
+        .fillMaxWidth()
+        .background(color = Color.Blue),
+    color = Color.White,
+    fontWeight = FontWeight.ExtraBold
+    )
 }
 
 @Composable
