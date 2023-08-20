@@ -47,6 +47,7 @@ fun HomePage() {
         Greeting(name = "Miracle")
         Greeting(name = "Mkpouto")
         GreetingJoe(name = "Joseph Ottong")
+        Greeting(name = "Miracle Okey")
     }
 }
 
